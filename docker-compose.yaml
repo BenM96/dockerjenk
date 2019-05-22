@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   jenk:
-    image: benm96/jank:latest
+    image: nilmontia/jenk:latest 
     build: .
     ports:
     - target: 8080
